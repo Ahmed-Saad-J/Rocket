@@ -132,6 +132,21 @@
     <h2 class="mb-6 text-center text-4xl text-slate-950 sm:text-5xl dark:text-white font-bold">
       Contact Us
     </h2>
+    <form action class="mx-auto flex flex-col gap-4 text-2xl sm:text-3xl">
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" required placeholder="Your Subject"
+      class="w-full rounded-xl p-3 border border-solid border-slate-900 text-2xl sm:text-3xl text-black
+      dark:border-none"
+      >
+      <label for="message">Message</label>
+      <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required
+      class="w-full rounded-xl p-3 border border-solid border-slate-900 text-2xl sm:text-3xl text-black
+      dark:border-none"
+      ></textarea>
+      <button class="w-48 p-3 bg-teal-700 rounded-xl text-white hover:bg-teal-600
+      border border-solid border-slate-900 dark:border-none
+      ">Submit</button>
+    </form>
   </section>
 </main>  
   </body>
